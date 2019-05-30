@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.4.0/css/bootstrap4-toggle.min.css"
+    rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.4.0/js/bootstrap4-toggle.min.js"></script>
+<script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+<script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+<script type="text/javascript" src="/js/radialprogress.js"></script>
+
+
+<link rel="stylesheet" href="../css/main.css">
+<link rel="stylesheet" href="../css/toggle.css">
+<script src="../js/mainLogic.js"></script>
+<script src="../js/liveReportLogic.js"></script>
+<script src="../js/navigation.js"></script>
+
+
+<body>
+    <header>
+        <h1 class="main-title">Crypto Coins Rates</h1>
+    </header>
+    <nav>
+        <button id="homeButton">Home</button>
+        <button id="liveReportButton">Live Reports</button>
+        <button id="aboutButton">About</button>
+    </nav>
+        <div class='search-bar'>
+        <input id="searchField" type="text" placeholder="Search.." name="search">
+        <button id="searchButton" type="submit">GO</button>
+    </div>
+    <div id='home'>
+        <div id='results'></div>
+    </div>
+    <div id='liveReport'>
+        <div id="chartContainer" style="height: 400px; width: 100%;"></div>
+    </div>
+    <div id="about">
+        <div class="my-card">
+            <img src="/avatar.jpg" class='my-img'>
+            <div class="my-info">
+                <h1 class="myname">Dmitri Nirenberg</h1>
+            </div>
+        </div>
+    </div>
+    <div id="bar"></div>
+</body>
+
+</html>
